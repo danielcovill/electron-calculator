@@ -1,0 +1,22 @@
+{
+  "name": "electron-calculator",
+  "version": "1.0.0",
+  "description": "Simple electron calculator application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcovill/electron-calculator.git"
+  },
+  "author": "Daniel Covill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielcovill/electron-calculator/issues"
+  },
+  "homepage": "https://github.com/danielcovill/electron-calculator#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
