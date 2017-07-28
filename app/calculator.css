@@ -1,6 +1,3 @@
-html {
-
-}
 body
 {
     font-family: 'Arial Narrow', Arial, sans-serif;
@@ -25,6 +22,7 @@ body
     font-size: 70px;
 }
 .button {
+    user-select: none;
     float: left;
     text-align: center;
     width: 100px;
@@ -36,11 +34,20 @@ body
     color: black;
     cursor: default;
 }
+.button:active {
+    background-color:#d0dddd;
+}
 .button.modifier {
     background-color: #c0cccc;
 }
+.button.modifier:active {
+    background-color: #909999;
+}
 .button.action {
-    background-color: orange;
+    background-color: #FFA500;
+}
+.button.action:active {
+    background-color: #dd8300;
 }
 .button.wide {
     width: 50%;

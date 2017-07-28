@@ -1,12 +1,9 @@
+"use strict";
 class Calculator {
-    currentValue: number;
-    currentOperator: Operator;
-
     constructor() {
-      this.currentValue = 0;  
+        this.currentValue = 0;
     }
-
-    operate(value: number, op: Operator) : number {
+    operate(value, op) {
         switch (this.currentOperator) {
             case Operator.Add:
                 this.currentOperator = op;
@@ -38,3 +35,4 @@ class Calculator {
         return this.currentValue;
     }
 }
+//# sourceMappingURL=calculator.js.map
