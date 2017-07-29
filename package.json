@@ -18,5 +18,8 @@
   },
   "homepage": "https://github.com/danielcovill/electron-calculator#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "gulp": "^3.9.1"
+  }
 }
